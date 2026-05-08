@@ -4,7 +4,7 @@ import { questions as questionData } from '../../../data/questions.js';
 import QuestionList from '../../components/Question/QuestionList.jsx';
 import './Home.css';
 
-const LOAD_DELAY_MS = 300;
+const LOAD_DELAY_MS = 1000;
 
 const Home = () => {
   const [questions, setQuestions] = useState([]);

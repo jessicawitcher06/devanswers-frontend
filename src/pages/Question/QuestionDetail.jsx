@@ -6,7 +6,7 @@ import AnswerList from '../../components/Answer/AnswerList.jsx';
 import QuestionContent from '../../components/Question/QuestionContent.jsx';
 import './QuestionDetail.css';
 
-const LOAD_DELAY_MS = 300;
+const LOAD_DELAY_MS = 1000;
 
 const QuestionDetail = ({ id }) => {
   const [question, setQuestion] = useState(null);
