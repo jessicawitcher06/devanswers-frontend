@@ -1,0 +1,42 @@
+.alist-wrapper {
+	width: 100%;
+}
+
+.alist-title {
+	color: var(--text-color);
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.alist-empty {
+	color: var(--text-muted);
+}
+
+.alist-card {
+	border: 1px solid var(--border-color);
+	border-radius: 12px;
+	box-shadow: var(--card-shadow);
+	background-color: var(--card-bg);
+}
+
+.alist-card:nth-of-type(odd) {
+	background-color: var(--card-bg);
+}
+
+.alist-card:nth-of-type(even) {
+	background-color: var(--bg-secondary);
+}
+
+.alist-votes {
+	min-width: 56px;
+}
+
+.alist-text {
+	color: var(--text-color);
+	line-height: 1.6;
+}
+
+.alist-meta {
+	font-size: 0.85rem;
+	color: var(--text-muted);
+}
